@@ -1,3 +1,5 @@
+// initialize and render the app when the document loads
 $(document).ready(function(){
-  // your code here!
+  const commentApp = new App()
+  commentApp.render()
 })
